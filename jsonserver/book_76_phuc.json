@@ -1,0 +1,334 @@
+{
+  "thuvien": {
+    "name": "Thư viện Tri thức Mở",
+    "address": "234 Đường Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội",
+    "email": "thuvien@trithucmo.vn",
+    "phone": "024-8765-4321",
+    "establishmentYear": 2010,
+    "openingHours": {
+      "mondayToFriday": "8:00 - 21:00",
+      "saturday": "8:00 - 17:00",
+      "sunday": "9:00 - 16:00"
+    },
+    "website": "http://locallhost/ ",
+    "statistics": {
+      "totalBooks": 45678,
+      "totalMembers": 12540,
+      "borrowedBooks": 3254,
+      "newBooksThisMonth": 123
+    }
+  },
+  "loaisach": [
+    {
+      "code": "VHVN",
+      "name": "Văn học Việt Nam",
+      "location": "Khu A - Tầng 1",
+      "bookCount": 5623,
+      "id": "33e1"
+    },
+    {
+      "code": "VHNN",
+      "name": "Văn học nước ngoài",
+      "location": "Khu A - Tầng 2",
+      "bookCount": 7845,
+      "id": "7ffb"
+    },
+    {
+      "code": "KHTN",
+      "name": "Khoa học tự nhiên",
+      "location": "Khu B - Tầng 1",
+      "bookCount": 4532,
+      "id": "fee5"
+    },
+    {
+      "code": "CNTT",
+      "name": "Công nghệ thông tin",
+      "location": "Khu B - Tầng 2",
+      "bookCount": 3654,
+      "id": "10b2"
+    },
+    {
+      "code": "KHXH",
+      "name": "Khoa học xã hội",
+      "location": "Khu C - Tầng 1",
+      "bookCount": 6234,
+      "id": "3cfe"
+    }
+  ],
+  "sach": [
+    {
+      "code": "S001",
+      "title": "Truyện Kiều",
+      "author": "Nguyễn Du",
+      "publishYear": 2020,
+      "publisher": "NXB Văn học",
+      "category": "VHVN",
+      "location": "A1-KE05-012",
+      "description": "Truyện Kiều là một truyện thơ của đại thi hào Nguyễn Du, được viết bằng chữ Nôm theo thể lục bát, gồm 3254 câu.",
+      "totalCopies": 5,
+      "availableCopies": 3,
+      "ISBN": "978-604-62-8574-3",
+      "image": "truyen_kieu.jpg",
+      "rating": 4.8,
+      "borrowCount": 245,
+      "id": "6800"
+    },
+    {
+      "code": "S002",
+      "title": "Nhà giả kim",
+      "author": "Paulo Coelho",
+      "publishYear": 2019,
+      "publisher": "NXB Hội Nhà Văn",
+      "category": "VHNN",
+      "location": "A2-KE12-034",
+      "description": "Nhà giả kim là tiểu thuyết được xuất bản lần đầu ở Brasil năm 1988, và là cuốn sách nổi tiếng nhất của nhà văn Paulo Coelho.",
+      "totalCopies": 8,
+      "availableCopies": 2,
+      "ISBN": "978-604-94-5411-7",
+      "image": "nha_gia_kim.jpg",
+      "rating": 4.7,
+      "borrowCount": 367,
+      "id": "18bb"
+    },
+    {
+      "code": "S003",
+      "title": "Vũ trụ trong vỏ hạt dẻ",
+      "author": "Stephen Hawking",
+      "publishYear": 2021,
+      "publisher": "NXB Trẻ",
+      "category": "KHTN",
+      "location": "B1-KE03-045",
+      "description": "Vũ trụ trong vỏ hạt dẻ là cuốn sách khoa học phổ thông của nhà vật lý lý thuyết Stephen Hawking.",
+      "totalCopies": 6,
+      "availableCopies": 4,
+      "ISBN": "978-604-1-12345-6",
+      "image": "vu_tru_trong_vo_hat_de.jpg",
+      "rating": 4.9,
+      "borrowCount": 183,
+      "id": "c1b2"
+    },
+    {
+      "code": "S004",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "publishYear": 2022,
+      "publisher": "NXB Bách khoa Hà Nội",
+      "category": "CNTT",
+      "location": "B2-KE08-023",
+      "description": "Clean Code là cuốn sách về lập trình giúp các lập trình viên viết mã nguồn dễ đọc, dễ bảo trì và nâng cao hiệu quả làm việc.",
+      "totalCopies": 4,
+      "availableCopies": 1,
+      "ISBN": "978-604-2-67890-1",
+      "image": "clean_code.jpg",
+      "rating": 4.8,
+      "borrowCount": 214,
+      "id": "10f8"
+    },
+    {
+      "code": "S005",
+      "title": "Sapiens: Lược sử loài người",
+      "author": "Yuval Noah Harari",
+      "publishYear": 2018,
+      "publisher": "NXB Thế giới",
+      "category": "KHXH",
+      "location": "C1-KE04-078",
+      "description": "Sapiens là một cuốn sách về lịch sử loài người từ thời kỳ đồ đá cũ đến thế kỷ 21.",
+      "totalCopies": 7,
+      "availableCopies": 3,
+      "ISBN": "978-604-77-3456-7",
+      "image": "sapiens.jpg",
+      "rating": 4.9,
+      "borrowCount": 328,
+      "id": "42be"
+    }
+  ],
+  "hoivien": [
+    {
+      "code": "TV001",
+      "fullName": "Nguyễn Văn Minh",
+      "birthDate": "1995-06-12",
+      "email": "minh.nguyen@gmail.com",
+      "phone": "0912345678",
+      "address": "56 Trần Phú, Hà Đông, Hà Nội",
+      "cardType": "Thường niên",
+      "registrationDate": "2020-03-15",
+      "expiryDate": "2025-03-15",
+      "status": "Hoạt động",
+      "currentlyBorrowedCount": 2,
+      "borrowHistory": [
+        {
+          "bookCode": "S001",
+          "borrowDate": "2024-02-10",
+          "dueDate": "2024-03-10",
+          "returnDate": "2024-03-05",
+          "status": "Đã trả"
+        },
+        {
+          "bookCode": "S003",
+          "borrowDate": "2024-03-15",
+          "dueDate": "2024-04-15",
+          "returnDate": null,
+          "status": "Đang mượn"
+        },
+        {
+          "bookCode": "S005",
+          "borrowDate": "2024-03-15",
+          "dueDate": "2024-04-15",
+          "returnDate": null,
+          "status": "Đang mượn"
+        }
+      ],
+      "id": "4ce8"
+    },
+    {
+      "code": "TV002",
+      "fullName": "Trần Thị Hoa",
+      "birthDate": "1990-08-25",
+      "email": "hoa.tran@outlook.com",
+      "phone": "0987654321",
+      "address": "72 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+      "cardType": "VIP",
+      "registrationDate": "2019-05-20",
+      "expiryDate": "2024-05-20",
+      "status": "Hoạt động",
+      "currentlyBorrowedCount": 3,
+      "borrowHistory": [
+        {
+          "bookCode": "S002",
+          "borrowDate": "2024-01-05",
+          "dueDate": "2024-02-05",
+          "returnDate": "2024-01-30",
+          "status": "Đã trả"
+        },
+        {
+          "bookCode": "S004",
+          "borrowDate": "2024-03-01",
+          "dueDate": "2024-04-01",
+          "returnDate": null,
+          "status": "Đang mượn"
+        },
+        {
+          "bookCode": "S001",
+          "borrowDate": "2024-03-10",
+          "dueDate": "2024-04-10",
+          "returnDate": null,
+          "status": "Đang mượn"
+        },
+        {
+          "bookCode": "S003",
+          "borrowDate": "2024-03-10",
+          "dueDate": "2024-04-10",
+          "returnDate": null,
+          "status": "Đang mượn"
+        }
+      ],
+      "id": "759c"
+    },
+    {
+      "code": "TV003",
+      "fullName": "Lê Quang Tuấn",
+      "birthDate": "1988-12-03",
+      "email": "tuan.le@hotmail.com",
+      "phone": "0965432109",
+      "address": "123 Giải Phóng, Hai Bà Trưng, Hà Nội",
+      "cardType": "Thường niên",
+      "registrationDate": "2021-01-10",
+      "expiryDate": "2026-01-10",
+      "status": "Hoạt động",
+      "currentlyBorrowedCount": 1,
+      "borrowHistory": [
+        {
+          "bookCode": "S005",
+          "borrowDate": "2024-02-20",
+          "dueDate": "2024-03-20",
+          "returnDate": "2024-03-18",
+          "status": "Đã trả"
+        },
+        {
+          "bookCode": "S002",
+          "borrowDate": "2024-03-20",
+          "dueDate": "2024-04-20",
+          "returnDate": null,
+          "status": "Đang mượn"
+        }
+      ],
+      "id": "d937"
+    }
+  ],
+  "sukien": [
+    {
+      "id": "SK001",
+      "name": "Gặp gỡ tác giả Nguyễn Ngọc Tư",
+      "time": "2024-04-15 18:30:00",
+      "location": "Phòng hội thảo - Tầng 3",
+      "description": "Buổi gặp gỡ và giao lưu với nhà văn Nguyễn Ngọc Tư, tác giả của 'Cánh đồng bất tận'",
+      "registeredCount": 120,
+      "maxCapacity": 150
+    },
+    {
+      "id": "SK002",
+      "name": "Workshop Lập trình Python cho người mới bắt đầu",
+      "time": "2024-04-20 09:00:00",
+      "location": "Phòng máy tính - Tầng 2",
+      "description": "Khóa học cơ bản về ngôn ngữ lập trình Python dành cho người mới bắt đầu",
+      "registeredCount": 25,
+      "maxCapacity": 30
+    },
+    {
+      "id": "SK003",
+      "name": "Đêm thơ Xuân Quỳnh",
+      "time": "2024-05-10 19:00:00",
+      "location": "Sân vườn - Tầng 1",
+      "description": "Đêm thơ nhạc tưởng nhớ nữ thi sĩ Xuân Quỳnh và những tác phẩm để đời",
+      "registeredCount": 85,
+      "maxCapacity": 100
+    }
+  ],
+  "nhanvien": [
+    {
+      "code": "NV001",
+      "fullName": "Phạm Thị Mai",
+      "position": "Giám đốc thư viện",
+      "email": "mai.pham@trithucmo.vn",
+      "phone": "0912345670",
+      "hireDate": "2010-01-15",
+      "id": "43eb"
+    },
+    {
+      "code": "NV002",
+      "fullName": "Trần Văn Hùng",
+      "position": "Quản lý hệ thống",
+      "email": "hung.tran@trithucmo.vn",
+      "phone": "0912345671",
+      "hireDate": "2010-02-01",
+      "id": "825d"
+    },
+    {
+      "code": "NV003",
+      "fullName": "Lê Thị Nga",
+      "position": "Thủ thư",
+      "email": "nga.le@trithucmo.vn",
+      "phone": "0912345672",
+      "hireDate": "2011-03-10",
+      "id": "c892"
+    },
+    {
+      "code": "NV004",
+      "fullName": "Nguyễn Văn Toàn",
+      "position": "Thủ thư",
+      "email": "toan.nguyen@trithucmo.vn",
+      "phone": "0912345673",
+      "hireDate": "2012-05-20",
+      "id": "7b83"
+    },
+    {
+      "code": "NV005",
+      "fullName": "Hoàng Thị Linh",
+      "position": "Quản lý sự kiện",
+      "email": "linh.hoang@trithucmo.vn",
+      "phone": "0912345674",
+      "hireDate": "2015-09-15",
+      "id": "37c5"
+    }
+  ]
+}
